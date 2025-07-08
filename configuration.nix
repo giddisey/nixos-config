@@ -45,7 +45,7 @@
 
   # display manager
   services.displayManager.enable = true;
-  services.displayManager.sddm.enable = true;
+  services.displayManager.ly.enable = true;
 
   # X11
   services.xserver.enable = true;
