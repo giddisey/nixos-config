@@ -75,7 +75,15 @@
     isNormalUser = true;
     description = "Allan Cairns";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [];
+    packages = with pkgs; [
+      firefox
+      nextcloud-client
+      git
+      gh
+      mc
+      kitty
+      vscodium
+    ];
   };
 
   # Allow unfree packages
