@@ -83,6 +83,7 @@
       mc
       kitty
       vscodium
+      wofi
     ];
   };
 
