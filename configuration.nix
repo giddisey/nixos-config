@@ -43,6 +43,14 @@
     LC_TIME = "en_AU.UTF-8";
   };
 
+  # display manager
+  services.displayManager.enable = true;
+  services.displayManager.sddm.enable = true;
+
+  # X11
+  services.xserver.enable = true;
+  services.xserver.desktopManager.xfce.enable = true;
+
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "au";
@@ -66,6 +74,7 @@
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     wget
     git
+    gh
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
