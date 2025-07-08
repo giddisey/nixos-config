@@ -82,7 +82,7 @@
       gh
       mc
       kitty
-      vscodium
+      vscodium-fhs
       wofi
     ];
   };
